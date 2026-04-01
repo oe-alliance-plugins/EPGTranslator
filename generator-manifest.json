@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "epgtranslator...",
+  "description_recipe": "epgtranslator...",
+  "history_source_dir": "EPGTranslator",
+  "internal_package_name": "enigma2-plugin-extensions-epgtranslator",
+  "module_dir_name": "EPGTranslator",
+  "output_subdir": "EPGTranslator",
+  "package_name": "enigma2-plugin-extensions-epgtranslator",
+  "plugin_src_rel": "EPGTranslator",
+  "python_package": "EPGTranslator",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "EPGTranslator",
+  "rrecommends": "",
+  "rreplaces": ""
+}
