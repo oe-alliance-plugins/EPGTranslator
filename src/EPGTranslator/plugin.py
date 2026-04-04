@@ -57,7 +57,7 @@ EPG_OPTIONS = 'BDTSEINX'    # X is not a returned-value setting
 # is automatically handled
 #
 ci = 0
-for i in list(range(len(EPG_OPTIONS))):
+for i in range(len(EPG_OPTIONS)):
     if EPG_OPTIONS[i] == 'X':
         continue
     exec("epg_%s = %d" % (EPG_OPTIONS[i], ci))  # FIME : Refactor to not used exec
@@ -768,11 +768,11 @@ Back: Toggle primary/alternate language
 # are none if we hit the exception.
 #
         try:
-            begin = time.strftime("%a %Y-%m-%d %H:%M", time.localtime(int(self.event[epg_B])))
+            begin = time.strftime("%a %Y-%m-%d %H:%M", time.localtime(int(self.event[epg_B])))  # noqa: F821
         except Exception:
             begin = ''
-        if self.event[epg_D] > 0:
-            plen = (int(self.event[epg_D]) / 60)    # mins
+        if self.event[epg_D] > 0:  # noqa: F821
+            plen = (int(self.event[epg_D]) / 60)    # mins  # noqa: F821
             if plen >= 60:
                 hr = int(plen / 60)
                 plen -= 60 * hr
@@ -787,15 +787,15 @@ Back: Toggle primary/alternate language
 # If we are playing back a recording we'll have set epg_I to its path
 # file_info and epg_N to the title, or "Recording"
 #
-            uref = make_uref(self.event[epg_I], self.event[epg_N])
+            uref = make_uref(self.event[epg_I], self.event[epg_N])  # noqa: F821
             (t_title, t_descr) = AfCache.fetch(uref)
             if t_descr is None:  # Not there...
                 try:
                     start = self.event[epg_PB]
                 except Exception:
-                    start = self.event[epg_B]
+                    start = self.event[epg_B]  # noqa: F821
                 (t_title, t_descr) = EPGdata_translate(title, descr,
-                     start, self.event[epg_D], uref)
+                     start, self.event[epg_D], uref)  # noqa: F821
 
 # We now have the title+descr and t_title+t_descr to display
 # None of the fields should have trailing newlines, so we should know
@@ -897,13 +897,13 @@ Back: Toggle primary/alternate language
 # Create a list of the correct size with all elements None
 #
             pbinfo = [None] * (len(EPG_OPTIONS) - 1)    # Ignoring X
-            pbinfo[epg_I] = eventID
-            pbinfo[epg_S] = short
-            pbinfo[epg_E] = extended
-            pbinfo[epg_T] = ename
-            pbinfo[epg_N] = Servname
-            pbinfo[epg_D] = dur
-            pbinfo[epg_B] = rec_began
+            pbinfo[epg_I] = eventID  # noqa: F821
+            pbinfo[epg_S] = short  # noqa: F821
+            pbinfo[epg_E] = extended  # noqa: F821
+            pbinfo[epg_T] = ename  # noqa: F821
+            pbinfo[epg_N] = Servname  # noqa: F821
+            pbinfo[epg_D] = dur  # noqa: F821
+            pbinfo[epg_B] = rec_began  # noqa: F821
             if play_began is not None:
                 pbinfo.append(play_began)   # epg_PB - and extra
             self.list = [tuple(pbinfo)]
@@ -923,7 +923,7 @@ Back: Toggle primary/alternate language
 # the last one before one with a future starting time
 #
             for i in list(range(1, len(self.list))):
-                if self.list[i][epg_B] > t_now:
+                if self.list[i][epg_B] > t_now:  # noqa: F821
                     break
                 self.count = i
 # Get the display going...
@@ -936,9 +936,9 @@ Back: Toggle primary/alternate language
     def showEPG(self):
         try:
             self.event = self.list[self.count]
-            title = self.event[epg_T]
-            short = self.event[epg_S]
-            extended = self.event[epg_E]
+            title = self.event[epg_T]  # noqa: F821
+            short = self.event[epg_S]  # noqa: F821
+            extended = self.event[epg_E]  # noqa: F821
             self.refresh = False
         except Exception:
             title = 'Press red button to refresh EPG'
