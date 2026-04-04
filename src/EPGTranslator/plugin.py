@@ -95,10 +95,10 @@ langs = sorted(langs, key=lambda x: x[1])
 rtol = {'ar', 'fa', 'ur'}
 
 
-def get_lang(l):
-    for x in langs:
-        if x[0] == l:
-            return x[1]
+def get_lang(index):
+    for lang in langs:
+        if lang[0] == index:
+            return lang[1]
     return "Unknown"
 
 
