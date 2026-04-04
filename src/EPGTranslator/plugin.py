@@ -838,7 +838,7 @@ Back: Toggle primary/alternate language
 # curEvent, so cater for this.
 # Set some default fields in case we fail for any reason...
 #
-            enedID = None
+            eventID = None
             short = ""
             extended = "Description unavailable"
             ename = "Unknown title"
