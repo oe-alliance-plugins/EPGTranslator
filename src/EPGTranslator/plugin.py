@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
 #
+import re
+import time
+import os
+import traceback
 
-# for localized messages
-from . import _
+# Python3 version
+from urllib.parse import quote, unquote
+from urllib.request import Request, urlopen
 
-EPGTrans_vers = "3.02-release"
 
 from Components.ActionMap import ActionMap, HelpableActionMap
 from Components.config import (config, ConfigSubsection,
@@ -24,17 +28,19 @@ from Screens.Screen import Screen
 from Screens.Setup import Setup
 from Screens.VirtualKeyBoard import VirtualKeyBoard
 
-import re
-import time
-import os
-import traceback
-
 from .AutoflushCache import AutoflushCache
 from .HTML5Entities import name2codepoint
 
-# Python3 version
-from urllib.parse import quote, unquote
-from urllib.request import Request, urlopen
+# Get the skin settings etc.
+# These are defined wrt a FullHD setting, and will be scaled if
+# the actual resolution differs.
+#
+from .Skin import MySD
+
+# for localized messages
+from . import _
+
+EPGTrans_vers = "3.02-release"
 
 # Who we will pretend to be when calling translate.google.com
 #
@@ -128,11 +134,6 @@ curr_dest = CfgPlTr.destination.getValue()
 #
 AfCache = AutoflushCache(CfgPlTr.timeout_hr.getValue(), null_return=(None, None))
 
-# Get the skin settings etc.
-# These are defined wrt a FullHD setting, and will be scaled if
-# the actual resolution differs.
-#
-from .Skin import MySD
 
 # -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 # Global functions
