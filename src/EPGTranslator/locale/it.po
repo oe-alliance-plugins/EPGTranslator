@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-09 08:57+0100\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2022-11-04 08:14+0100\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <>\n"
@@ -19,310 +19,403 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 22.08.2\n"
 
+#: ../plugin.py:607
 msgid "Access plugin setup"
 msgstr ""
 
+#: ../plugin.py:599
 msgid "Access text translator"
 msgstr ""
 
+#: ../plugin.py:79
 msgid "Afrikaans"
 msgstr "Africano"
 
+#: ../plugin.py:79
 msgid "Albanian"
 msgstr "Albanese"
 
+#: ../setup.xml
 #, fuzzy
 msgid "Alternate Language:"
 msgstr "Rileva lingua"
 
+#: ../setup.xml
 #, fuzzy
 msgid "Alternative language the source text can be translated into."
 msgstr "Questa è la lingua in cui verrà tradotto il testo di partenza."
 
+#: ../plugin.py:79
 msgid "Arabic"
 msgstr "Arabo"
 
+#: ../plugin.py:80
 msgid "Azerbaijani"
 msgstr "Azerbaigiano"
 
+#: ../plugin.py:80
 msgid "Basque"
 msgstr "Basco"
 
+#: ../plugin.py:80
 msgid "Belarusian"
 msgstr "Bielorusso"
 
+#: ../plugin.py:81
 msgid "Bosnian"
 msgstr "Bosniaco"
 
+#: ../plugin.py:81
 msgid "Bulgarian"
 msgstr "Bulgaro"
 
+#: ../plugin.py:721
 msgid "Cache cleared"
 msgstr "Cache cancellata"
 
+#: ../setup.xml
 msgid "Cache timeout hours (0 == while valid):"
 msgstr "Ore timeout cache (0 == mentre è valido):"
 
+#: ../plugin.py:81
 msgid "Catalan"
 msgstr "Catalano"
 
+#: ../plugin.py:82
 msgid "Cebuano"
 msgstr "Cebuano"
 
+#: ../plugin.py:605 ../plugin.py:654
 msgid "Clear cache"
 msgstr "Svuota la cache"
 
+#: ../plugin.py:600
 msgid "Close plugin"
 msgstr ""
 
+#: ../plugin.py:82
 msgid "Croatian"
 msgstr "Croato"
 
+#: ../plugin.py:82
 msgid "Czech"
 msgstr "Ceco"
 
+#: ../plugin.py:83
 msgid "Danish"
 msgstr "Danese"
 
+#: ../setup.xml
 msgid "Destination Language:"
 msgstr "Lingua di destinazione:"
 
+#: ../plugin.py:119
 msgid "Detect Language"
 msgstr "Rileva lingua"
 
+#: ../plugin.py:83
 msgid "Dutch"
 msgstr "Olandese"
 
+#: ../plugin.py:625 ../plugin.py:692 ../plugin.py:1255 ../plugin.py:1256
+#: ../plugin.py:1257 ../plugin.py:1258
 msgid "EPG Translator"
 msgstr ""
 
+#: ../plugin.py:639
 msgid "EPG Translator Actions"
 msgstr ""
 
+#: ../setup.xml
 msgid "EPG Translator Setup"
 msgstr ""
 
+#: ../plugin.py:511
 msgid "EPG Translator Setup - "
 msgstr ""
 
+#: ../plugin.py:1005
 msgid "EPG Translator version: "
 msgstr ""
 
-msgid "EPGTranslator Actions"
-msgstr ""
-
+#: ../plugin.py:83
 msgid "English"
 msgstr "Inglese"
 
+#: ../plugin.py:84
 msgid "Estonian"
 msgstr "Estone"
 
-msgid "Event View Actions"
-msgstr ""
-
+#: ../setup.xml
 msgid "EventViews open translated:"
 msgstr "EventViews open tradotto:"
 
+#: ../plugin.py:84
 msgid "Filipino"
 msgstr "Filippino"
 
+#: ../plugin.py:84
 msgid "Finnish"
 msgstr "Finlandese"
 
+#: ../plugin.py:85
 msgid "French"
 msgstr "Francese"
 
+#: ../plugin.py:85
 msgid "Galician"
 msgstr "Galiziano"
 
+#: ../plugin.py:85
 msgid "German"
 msgstr "Tedesco"
 
+#: ../plugin.py:86
 msgid "Greek"
 msgstr "Greco"
 
+#: ../plugin.py:86
 msgid "Haitian Creole"
 msgstr "Creolo haitiano"
 
+#: ../plugin.py:653
 msgid "Hide"
 msgstr "Nascondi"
 
+#: ../plugin.py:606
 msgid "Hide screen"
 msgstr ""
 
+#: ../plugin.py:86
 msgid "Hungarian"
 msgstr "Ungherese"
 
+#: ../plugin.py:87
 msgid "Icelandic"
 msgstr "Islandese"
 
+#: ../plugin.py:87
 msgid "Indonesian"
 msgstr "Indonesiano"
 
+#: ../plugin.py:656
 msgid "Info"
 msgstr "Informazioni"
 
+#: ../plugin.py:87
 msgid "Irish"
 msgstr "Irlandese"
 
+#: ../plugin.py:88
 msgid "Italian"
 msgstr "Italiano"
 
+#: ../plugin.py:88
 msgid "Javanese"
 msgstr "Giavanese"
 
+#: ../plugin.py:88
 msgid "Latvian"
 msgstr "Lettone"
 
+#: ../plugin.py:89
 msgid "Lithuanian"
 msgstr "Lituano"
 
+#: ../plugin.py:662
 msgid "MENU"
 msgstr "MENU"
 
+#: ../plugin.py:89
 msgid "Macedonian"
 msgstr "Macedone"
 
+#: ../plugin.py:89
 msgid "Malay"
 msgstr "Malese"
 
+#: ../plugin.py:90
 msgid "Maltese"
 msgstr "Maltese"
 
+#: ../plugin.py:635
 msgid "Next EPG event"
 msgstr ""
 
+#: ../plugin.py:127
 msgid "No"
 msgstr "No"
 
+#: ../plugin.py:90
 msgid "Norwegian"
 msgstr "Norvegese"
 
+#: ../plugin.py:738
 msgid "On-line translation"
 msgstr ""
 
+#: ../plugin.py:672
 msgid "Original"
 msgstr ""
 
+#: ../plugin.py:90
 msgid "Persian"
 msgstr "Persiano"
 
+#: ../plugin.py:91
 msgid "Polish"
 msgstr "Polacco"
 
+#: ../plugin.py:91
 msgid "Portuguese"
 msgstr "Portoghese"
 
+#: ../plugin.py:636
 msgid "Previous EPG event"
 msgstr ""
 
+#: ../plugin.py:603 ../plugin.py:655
 msgid "Refresh EPG"
 msgstr "Aggiorna EPG"
 
+#: ../plugin.py:91
 msgid "Romanian"
 msgstr "Rumeno"
 
+#: ../plugin.py:92
 msgid "Russian"
 msgstr "Russo"
 
+#: ../plugin.py:601
 #, fuzzy
 msgid "Scroll translated text down"
 msgstr "Traduci testo"
 
+#: ../plugin.py:602
 #, fuzzy
 msgid "Scroll translated text up"
 msgstr "Traduci testo"
 
+#: ../setup.xml
 #, fuzzy
 msgid "Select the source language to be translated, or select 'Detect Language' and the translator will attempt to automatically detect the source language."
 msgstr "Seleziona la lingua di origine da tradurre o seleziona \"Rileva lingua\" e il traduttore tenterà di rilevare automaticamente la lingua di origine."
 
+#: ../setup.xml
 msgid "Select this option to show the source text as well as the translated text in EPG Translator main screen show."
 msgstr "Seleziona questa opzione per mostrare il testo sorgente e il testo tradotto nella schermata principale di EPG Translator."
 
+#: ../plugin.py:92
 msgid "Serbian"
 msgstr "Serbo"
 
+#: ../setup.xml
 msgid "Show Source EPG:"
 msgstr "Mostra EPG sorgente:"
 
+#: ../plugin.py:604 ../plugin.py:608
 msgid "Show plugin info"
 msgstr ""
 
+#: ../setup.xml
 msgid "Show traceback in errors:"
 msgstr "Mostra traceback negli errori:"
 
+#: ../plugin.py:92
 msgid "Slovak"
 msgstr "Slovacco"
 
+#: ../plugin.py:93
 msgid "Slovenian"
 msgstr "Sloveno"
 
+#: ../setup.xml
 msgid "Source Language:"
 msgstr "Lingua di origine:"
 
+#: ../plugin.py:93
 msgid "Spanish"
 msgstr "Spagnolo"
 
+#: ../plugin.py:93
 msgid "Swahili"
 msgstr "Swahili"
 
+#: ../plugin.py:94
 msgid "Swedish"
 msgstr "Svedese"
 
+#: ../plugin.py:714
 msgid "Text Translator:"
 msgstr ""
 
+#: ../plugin.py:660
 msgid "Text input"
 msgstr ""
 
+#: ../setup.xml
 msgid "This is a development feature. On a translation failure, if enabled, extra debug information will be logged."
 msgstr "Questa è una caratteristica di sviluppo. In caso di errore di traduzione, se abilitato, verranno registrate informazioni di debug aggiuntive."
 
+#: ../setup.xml
 msgid "This is the language the source text will be translated into."
 msgstr "Questa è la lingua in cui verrà tradotto il testo di partenza."
 
+#: ../plugin.py:609 ../plugin.py:661 ../plugin.py:1195
 #, fuzzy
 msgid "Toggle language"
 msgstr "Lingua di origine:"
 
+#: ../plugin.py:1194
 msgid "Toggle translation"
 msgstr ""
 
+#: ../plugin.py:1255 ../plugin.py:1256 ../plugin.py:1257 ../plugin.py:1258
 #, fuzzy
 msgid "Translate your EPG"
 msgstr "Traduci testo"
 
+#: ../plugin.py:444
 #, fuzzy
 msgid "Translation error"
 msgstr "Traduci testo"
 
+#: ../setup.xml
 msgid "Translations are cached to avoid unnecessary re-translation. This is the number of hours the translation will survive in the cache before deletion. Select '0' for the cache entry to expire once the program has completed."
 msgstr "Le traduzioni vengono memorizzate nella cache per evitare inutili ritraduzioni. Questo è il numero di ore in cui la traduzione sopravvive nella cache prima dell'eliminazione. Seleziona '0' per far scadere la voce della cache una volta completato il programma."
 
+#: ../plugin.py:94
 msgid "Turkish"
 msgstr "Turco"
 
+#: ../plugin.py:94
 msgid "Ukrainian"
 msgstr "Ucraino"
 
+#: ../plugin.py:95
 msgid "Urdu"
 msgstr "Urdu"
 
+#: ../plugin.py:95
 msgid "Vietnamese"
 msgstr "Vietnamita"
 
+#: ../plugin.py:95
 msgid "Welsh"
 msgstr "Gallese"
 
+#: ../setup.xml
 msgid "When an EventView window is opened, start with the translated text."
 msgstr "Quando viene aperta una finestra EventView, inizia con il testo tradotto."
 
+#: ../plugin.py:127
 msgid "Yes"
 msgstr "Sì"
 
+#: ../plugin.py:637
 msgid "Zap down"
 msgstr ""
 
+#: ../plugin.py:638
 msgid "Zap up"
 msgstr ""

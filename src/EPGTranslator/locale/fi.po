@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-09 08:57+0100\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2025-07-09 17:02+0300\n"
 "Last-Translator: Orlandox\n"
 "Language-Team: Orlandox\n"
@@ -17,302 +17,395 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.6\n"
 
+#: ../plugin.py:607
 msgid "Access plugin setup"
 msgstr "Mene lisäosan asetuksiin"
 
+#: ../plugin.py:599
 msgid "Access text translator"
 msgstr "Mene tekstinkääntäjään"
 
+#: ../plugin.py:79
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
+#: ../plugin.py:79
 msgid "Albanian"
 msgstr "Albania"
 
+#: ../setup.xml
 msgid "Alternate Language:"
 msgstr "Vaihtoehtoinen kieli:"
 
+#: ../setup.xml
 msgid "Alternative language the source text can be translated into."
 msgstr "Vaihtoehtoinen kieli, jolle lähdeteksti voidaan kääntää."
 
+#: ../plugin.py:79
 msgid "Arabic"
 msgstr "Arabia"
 
+#: ../plugin.py:80
 msgid "Azerbaijani"
 msgstr "Azerbaidžani"
 
+#: ../plugin.py:80
 msgid "Basque"
 msgstr "Baski"
 
+#: ../plugin.py:80
 msgid "Belarusian"
 msgstr "Valkovenäjä"
 
+#: ../plugin.py:81
 msgid "Bosnian"
 msgstr "Bosnia"
 
+#: ../plugin.py:81
 msgid "Bulgarian"
 msgstr "Bulgaria"
 
+#: ../plugin.py:721
 msgid "Cache cleared"
 msgstr "Välimuisti tyhjennetty"
 
+#: ../setup.xml
 msgid "Cache timeout hours (0 == while valid):"
 msgstr "Välimuistin aikakatkaisun tunnit (0 == voimassaoloaikana):"
 
+#: ../plugin.py:81
 msgid "Catalan"
 msgstr "Katalaani"
 
+#: ../plugin.py:82
 msgid "Cebuano"
 msgstr "Cebuano"
 
+#: ../plugin.py:605 ../plugin.py:654
 msgid "Clear cache"
 msgstr "Tyhjennä välimuisti"
 
+#: ../plugin.py:600
 msgid "Close plugin"
 msgstr "Sulje lisäosa"
 
+#: ../plugin.py:82
 msgid "Croatian"
 msgstr "Kroatia"
 
+#: ../plugin.py:82
 msgid "Czech"
 msgstr "Tšekki"
 
+#: ../plugin.py:83
 msgid "Danish"
 msgstr "Tanska"
 
+#: ../setup.xml
 msgid "Destination Language:"
 msgstr "Kohteen kieli:"
 
+#: ../plugin.py:119
 msgid "Detect Language"
 msgstr "Tunnista kieli"
 
+#: ../plugin.py:83
 msgid "Dutch"
 msgstr "Hollanti"
 
+#: ../plugin.py:625 ../plugin.py:692 ../plugin.py:1255 ../plugin.py:1256
+#: ../plugin.py:1257 ../plugin.py:1258
 msgid "EPG Translator"
 msgstr "EPG:n kielenkääntäjä"
 
+#: ../plugin.py:639
 msgid "EPG Translator Actions"
 msgstr "EPG:n kielenkääntäjän toiminnot"
 
+#: ../setup.xml
 msgid "EPG Translator Setup"
 msgstr "EPG:n kielenkääntäjän asetukset"
 
+#: ../plugin.py:511
 msgid "EPG Translator Setup - "
 msgstr "EPG:n kielenkääntäjän asetukset - "
 
+#: ../plugin.py:1005
 msgid "EPG Translator version: "
 msgstr "EPG:n kielenkääntäjän versio: "
 
-msgid "EPGTranslator Actions"
-msgstr "EPG:n kielenkääntäjän toiminnot"
-
+#: ../plugin.py:83
 msgid "English"
 msgstr "Englanti"
 
+#: ../plugin.py:84
 msgid "Estonian"
 msgstr "Viro"
 
-msgid "Event View Actions"
-msgstr "Ohjelmanäkymän toiminnot"
-
+#: ../setup.xml
 msgid "EventViews open translated:"
 msgstr "Ohjelmanäkymä aukeaa kieli käännettynä:"
 
+#: ../plugin.py:84
 msgid "Filipino"
 msgstr "Filippiinit"
 
+#: ../plugin.py:84
 msgid "Finnish"
 msgstr "Suomi"
 
+#: ../plugin.py:85
 msgid "French"
 msgstr "Ranska"
 
+#: ../plugin.py:85
 msgid "Galician"
 msgstr "Galicia"
 
+#: ../plugin.py:85
 msgid "German"
 msgstr "Saksa"
 
+#: ../plugin.py:86
 msgid "Greek"
 msgstr "Kreikka"
 
+#: ../plugin.py:86
 msgid "Haitian Creole"
 msgstr "Haitin kreoli"
 
+#: ../plugin.py:653
 msgid "Hide"
 msgstr "Piilota"
 
+#: ../plugin.py:606
 msgid "Hide screen"
 msgstr "Piilota näyttö"
 
+#: ../plugin.py:86
 msgid "Hungarian"
 msgstr "Unkari"
 
+#: ../plugin.py:87
 msgid "Icelandic"
 msgstr "Islanti"
 
+#: ../plugin.py:87
 msgid "Indonesian"
 msgstr "Indonesia"
 
+#: ../plugin.py:656
 msgid "Info"
 msgstr "Tiedot"
 
+#: ../plugin.py:87
 msgid "Irish"
 msgstr "Irlanti"
 
+#: ../plugin.py:88
 msgid "Italian"
 msgstr "Italia"
 
+#: ../plugin.py:88
 msgid "Javanese"
 msgstr "Jaava"
 
+#: ../plugin.py:88
 msgid "Latvian"
 msgstr "Latvia"
 
+#: ../plugin.py:89
 msgid "Lithuanian"
 msgstr "Liettua"
 
+#: ../plugin.py:662
 msgid "MENU"
 msgstr "MENU"
 
+#: ../plugin.py:89
 msgid "Macedonian"
 msgstr "Makedonia"
 
+#: ../plugin.py:89
 msgid "Malay"
 msgstr "Malaiji"
 
+#: ../plugin.py:90
 msgid "Maltese"
 msgstr "Malta"
 
+#: ../plugin.py:635
 msgid "Next EPG event"
 msgstr "Seuraava ohjelma EPG:ssa"
 
+#: ../plugin.py:127
 msgid "No"
 msgstr "Ei"
 
+#: ../plugin.py:90
 msgid "Norwegian"
 msgstr "Norja"
 
+#: ../plugin.py:738
 msgid "On-line translation"
 msgstr "Online-käännös"
 
+#: ../plugin.py:672
 msgid "Original"
 msgstr "Alkuperäinen"
 
+#: ../plugin.py:90
 msgid "Persian"
 msgstr "Persia"
 
+#: ../plugin.py:91
 msgid "Polish"
 msgstr "Puola"
 
+#: ../plugin.py:91
 msgid "Portuguese"
 msgstr "Portugali"
 
+#: ../plugin.py:636
 msgid "Previous EPG event"
 msgstr "Edellinen ohjelma EPG:ssa"
 
+#: ../plugin.py:603 ../plugin.py:655
 msgid "Refresh EPG"
 msgstr "Virkistä EPG"
 
+#: ../plugin.py:91
 msgid "Romanian"
 msgstr "Romania"
 
+#: ../plugin.py:92
 msgid "Russian"
 msgstr "Venäjä"
 
+#: ../plugin.py:601
 msgid "Scroll translated text down"
 msgstr "Vieritä käännettyä tekstiä alaspäin"
 
+#: ../plugin.py:602
 msgid "Scroll translated text up"
 msgstr "Vieritä käännettyä tekstiä ylöspäin"
 
+#: ../setup.xml
 msgid "Select the source language to be translated, or select 'Detect Language' and the translator will attempt to automatically detect the source language."
 msgstr "Valitse käännettävä lähdekieli tai valitse 'Tunnista kieli', jolloin kielenkääntäjä yrittää tunnistaa lähdekielen automaattisesti."
 
+#: ../setup.xml
 msgid "Select this option to show the source text as well as the translated text in EPG Translator main screen show."
 msgstr "Valitse tämä vaihtoehto, jos haluat näyttää sekä lähdetekstin että käännetyn tekstin EPG:n kielenkääntäjän päänäytössä."
 
+#: ../plugin.py:92
 msgid "Serbian"
 msgstr "Serbia"
 
+#: ../setup.xml
 msgid "Show Source EPG:"
 msgstr "Näytä lähdetekstin EPG:"
 
+#: ../plugin.py:604 ../plugin.py:608
 msgid "Show plugin info"
 msgstr "Näytä lisäosan tiedot"
 
+#: ../setup.xml
 msgid "Show traceback in errors:"
 msgstr "Näytä jäljitys virheissä:"
 
+#: ../plugin.py:92
 msgid "Slovak"
 msgstr "Slovakia"
 
+#: ../plugin.py:93
 msgid "Slovenian"
 msgstr "Slovenia"
 
+#: ../setup.xml
 msgid "Source Language:"
 msgstr "Lähdekieli:"
 
+#: ../plugin.py:93
 msgid "Spanish"
 msgstr "Espanja"
 
+#: ../plugin.py:93
 msgid "Swahili"
 msgstr "Swahili"
 
+#: ../plugin.py:94
 msgid "Swedish"
 msgstr "Ruotsi"
 
+#: ../plugin.py:714
 msgid "Text Translator:"
 msgstr "Tekstin kääntäjä:"
 
+#: ../plugin.py:660
 msgid "Text input"
 msgstr "Tekstin syöttö"
 
+#: ../setup.xml
 msgid "This is a development feature. On a translation failure, if enabled, extra debug information will be logged."
 msgstr "Tämä on kehitysominaisuus. Käännösvirheen sattuessa, jos se on käytössä, kirjataan lisä debug-tietoja lokiin."
 
+#: ../setup.xml
 msgid "This is the language the source text will be translated into."
 msgstr "Tämä on kieli, jolle lähdeteksti käännetään."
 
+#: ../plugin.py:609 ../plugin.py:661 ../plugin.py:1195
 msgid "Toggle language"
 msgstr "Vaihda kieli"
 
+#: ../plugin.py:1194
 msgid "Toggle translation"
 msgstr "Vaihda käännös"
 
+#: ../plugin.py:1255 ../plugin.py:1256 ../plugin.py:1257 ../plugin.py:1258
 msgid "Translate your EPG"
 msgstr "Käännä EPG:n kieli"
 
+#: ../plugin.py:444
 msgid "Translation error"
 msgstr "Käännösvirhe"
 
+#: ../setup.xml
 msgid "Translations are cached to avoid unnecessary re-translation. This is the number of hours the translation will survive in the cache before deletion. Select '0' for the cache entry to expire once the program has completed."
 msgstr "Käännökset tallennetaan välimuistiin tarpeettoman uudelleenkääntämisen välttämiseksi. Tämä on tuntimäärä, jonka käännös säilyy välimuistissa ennen poistamista. Valitse '0', jos haluat käännöksen poistuvan välimuistista ohjelman loputtua."
 
+#: ../plugin.py:94
 msgid "Turkish"
 msgstr "Turkki"
 
+#: ../plugin.py:94
 msgid "Ukrainian"
 msgstr "Ukraina"
 
+#: ../plugin.py:95
 msgid "Urdu"
 msgstr "Urdu"
 
+#: ../plugin.py:95
 msgid "Vietnamese"
 msgstr "Vietnam"
 
+#: ../plugin.py:95
 msgid "Welsh"
 msgstr "Wales"
 
+#: ../setup.xml
 msgid "When an EventView window is opened, start with the translated text."
 msgstr "Kun ohjelmanäkymä avataan, aloita käännetyllä tekstillä."
 
+#: ../plugin.py:127
 msgid "Yes"
 msgstr "Kyllä"
 
+#: ../plugin.py:637
 msgid "Zap down"
 msgstr "Kanavanvaihto alas"
 
+#: ../plugin.py:638
 msgid "Zap up"
 msgstr "Kanavanvaihto ylös"
